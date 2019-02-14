@@ -1374,6 +1374,7 @@ ol {
   }
   .header-section {
     display: block;
+    width: 100%;
   }
   .page-top-info {
     height: 400px;
@@ -1415,6 +1416,7 @@ ol {
   .hs-item {
     height: auto;
     padding: 250px 0;
+    display: none;
   }
   .hs-content h2,
   .page-top-info h2 {
