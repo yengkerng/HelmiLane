@@ -1,15 +1,11 @@
 /* =================================
 ------------------------------------
-  Pulse - Restaurant HTML Template
+  HelmiLane - Designed by Yeng Tan
   Version: 1.0
  ------------------------------------ 
  ====================================*/
 
-
 $color: #ffc515;
-
-
-
 
 /*----------------------------------------*/
 /* Template default CSS
@@ -17,9 +13,8 @@ $color: #ffc515;
 
 @font-face {
   font-family: 'HelveticaNeueLTPro';
-  src: url("../fonts/HelveticaNeueLTPro-Md.woff");
+  src: url('../fonts/HelveticaNeueLTPro-Md.woff');
 }
-
 
 html,
 body {
@@ -39,27 +34,27 @@ h6 {
   color: #1b1a1a;
 }
 
-h1{
+h1 {
   font-size: 70px;
 }
 
-h2{
+h2 {
   font-size: 36px;
 }
 
-h3{
+h3 {
   font-size: 30px;
 }
 
-h4{
+h4 {
   font-size: 24px;
 }
 
-h5{
+h5 {
   font-size: 18px;
 }
 
-h6{
+h6 {
   font-size: 16px;
 }
 
@@ -102,12 +97,12 @@ ol {
 .section-title {
   text-align: center;
   margin-bottom: 75px;
-  i{
+  i {
     display: block;
     color: #8a8a8a;
     font-size: 65px;
   }
-  h2{
+  h2 {
     font-size: 48px;
     position: relative;
     display: inline-block;
@@ -115,7 +110,7 @@ ol {
     &:after,
     &:before {
       position: absolute;
-      content:"";
+      content: '';
       width: 277px;
       height: 1px;
       background: $color;
@@ -129,7 +124,7 @@ ol {
     }
   }
   &.text-white {
-    i{
+    i {
       color: #fff;
     }
   }
@@ -154,13 +149,22 @@ ol {
 }
 
 .text-white {
-  h1,h2,h3,h4,h5,h6,p,span,li,a{
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  li,
+  a {
     color: #fff;
-  } 
+  }
 }
 
 .rating {
-  i{
+  i {
     color: #fbb710;
   }
   .is-fade {
@@ -168,12 +172,10 @@ ol {
   }
 }
 
-
-
 /*---------------------
   Commom elements
 -----------------------*/
-/* buttons */ 
+/* buttons */
 .site-btn {
   display: inline-block;
   text-align: center;
@@ -182,7 +184,7 @@ ol {
   padding: 20px 30px;
   min-width: 229px;
   border: none;
-  background:$color;
+  background: $color;
   cursor: pointer;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -198,8 +200,6 @@ ol {
     }
   }
 }
-
-
 
 /* Preloder */
 
@@ -265,7 +265,6 @@ ol {
   }
 }
 
-
 .element {
   margin-bottom: 110px;
   &:last-child {
@@ -282,7 +281,7 @@ ol {
 }
 
 .accordion-area .panel-link:after {
-  content: "+";
+  content: '+';
   position: absolute;
   font-size: 18px;
   font-weight: 700;
@@ -294,19 +293,19 @@ ol {
   margin-left: -4px;
 }
 .accordion-area .panel-header .panel-link.active {
-   background: #000;
-   color: #fff;
+  background: #000;
+  color: #fff;
 }
 .accordion-area .panel-header .panel-link.collapsed {
-   background: $color;
-   color: #1d1d1d;
-   &:after {
-    content: "+";
+  background: $color;
+  color: #1d1d1d;
+  &:after {
+    content: '+';
     color: #1d1d1d;
-   }
+  }
 }
 .accordion-area .panel-link.active:after {
-  content: "-";
+  content: '-';
   margin-top: -10px;
   color: #fff;
 }
@@ -350,13 +349,14 @@ ol {
     margin-bottom: 10px;
   }
   .nav-tabs .nav-item:last-child .nav-link {
-      margin-right: 0;
+    margin-right: 0;
   }
   .nav-tabs .nav-link.active {
-     background: #000;
-     color: #fff;
+    background: #000;
+    color: #fff;
   }
-  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  .nav-tabs .nav-link:focus,
+  .nav-tabs .nav-link:hover {
     border: none;
   }
   .tab-pane {
@@ -367,38 +367,36 @@ ol {
   }
 }
 
-
 /* Circle progress */
-.circle-progress{
-    text-align: center;
-    display: block;
-    position: relative;
-    margin-bottom: 15px;
-    canvas {
-        -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
-    }
-    .progress-value{
-      position: absolute;
-      width: 100%;
-      top: 50%;
-      margin-top: -21.5px;
-    }
+.circle-progress {
+  text-align: center;
+  display: block;
+  position: relative;
+  margin-bottom: 15px;
+  canvas {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .progress-value {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -21.5px;
+  }
 }
 
 .cp-item {
   text-align: center;
-   h4 {
-      font-size: 14px;
-      color: #7e7e7e;
-    }
+  h4 {
+    font-size: 14px;
+    color: #7e7e7e;
+  }
 }
-
 
 /* Fact */
 .fact {
-  i{
+  i {
     font-size: 75px;
     color: $color;
     width: 100px;
@@ -408,18 +406,17 @@ ol {
   .fact-text {
     padding-left: 107px;
     padding-top: 22px;
-    p{
+    p {
       font-size: 14px;
-    margin-bottom: 0;
+      margin-bottom: 0;
     }
   }
 }
 
-
 /* Icon box */
 .icon-boxe {
   text-align: center;
-  i{
+  i {
     display: block;
     color: $color;
     font-size: 40px;
@@ -429,7 +426,6 @@ ol {
     margin-bottom: 30px;
   }
 }
-
 
 /*------------------
   Header section
@@ -457,11 +453,11 @@ ol {
     padding: 25px 0;
     color: #fff;
     span {
-        color: $color;
-      }
+      color: $color;
+    }
   }
 }
-.nav-switch  {
+.nav-switch {
   display: none;
 }
 .main-menu {
@@ -469,7 +465,7 @@ ol {
   text-align: right;
   padding-right: 290px;
   vertical-align: middle;
-  li{
+  li {
     display: inline;
     a {
       display: inline-block;
@@ -488,21 +484,20 @@ ol {
 }
 
 .header-right {
-    display: table-cell;
-    width: 383px;
-    text-align: center;
-    border-left: 1px solid rgba(255, 255, 255, 0.25);
-    vertical-align: middle;
-    p{
-      margin-bottom: 0;
-      line-height: normal;
-      color: #fff;
-      span {
-        color: $color;
-      }
+  display: table-cell;
+  width: 383px;
+  text-align: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  vertical-align: middle;
+  p {
+    margin-bottom: 0;
+    line-height: normal;
+    color: #fff;
+    span {
+      color: $color;
     }
+  }
 }
-
 
 /*------------------
   Hero section
@@ -520,7 +515,7 @@ ol {
   .hsc-warp {
     display: inline-block;
   }
-  h2{
+  h2 {
     font-size: 110px;
     color: #fff;
     line-height: 1;
@@ -528,13 +523,13 @@ ol {
     top: 100px;
     opacity: 0;
     -webkit-transform: scale(0.7);
-        -ms-transform: scale(0.7);
-            transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
     span {
       color: $color;
     }
   }
-  p{
+  p {
     color: #fff;
     margin-bottom: 0;
     text-align: right;
@@ -544,32 +539,33 @@ ol {
     top: 50px;
     opacity: 0;
     -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-            transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
   }
 }
 
 .owl-item.active .hs-content {
-    h2,p {
-      top: 0;
-      opacity: 1;
-      -webkit-transform: scale(1);
-          -ms-transform: scale(1);
-              transform: scale(1);
-    }
-    h2 {
-      -webkit-transition: all 0.5s ease 0.6s;
-      -o-transition: all 0.5s ease 0.6s;
-      transition: all 0.5s ease 0.6s;
-    }
-    p {
-      -webkit-transition: all 0.5s ease 0.8s;
-      -o-transition: all 0.5s ease 0.8s;
-      transition: all 0.5s ease 0.8s;
-    }
+  h2,
+  p {
+    top: 0;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  h2 {
+    -webkit-transition: all 0.5s ease 0.6s;
+    -o-transition: all 0.5s ease 0.6s;
+    transition: all 0.5s ease 0.6s;
+  }
+  p {
+    -webkit-transition: all 0.5s ease 0.8s;
+    -o-transition: all 0.5s ease 0.8s;
+    transition: all 0.5s ease 0.8s;
+  }
 }
 
-.hero-slider{
+.hero-slider {
   .owl-dots-number {
     position: absolute;
     width: 69px;
@@ -610,19 +606,16 @@ ol {
   }
 }
 
-
-
 /*---------------------
   Intro Section
 -----------------------*/
 .intro-item {
   text-align: center;
   margin-bottom: 45px;
-  h3{
+  h3 {
     margin-bottom: 35px;
   }
 }
-
 
 /*---------------------
   Testimonials Section
@@ -636,7 +629,7 @@ ol {
       font-size: 24px;
       margin-bottom: 24px;
     }
-    p{
+    p {
       margin-bottom: 50px;
     }
     h6 {
@@ -664,17 +657,15 @@ ol {
   }
 }
 
-
-
 /*---------------------
   Services Section
 -----------------------*/
 .services {
   padding-top: 40px;
 }
-.service-item{
+.service-item {
   text-align: center;
-  i{
+  i {
     display: block;
     color: #c49812;
     font-size: 40px;
@@ -685,12 +676,10 @@ ol {
   }
 }
 
-
-
 /*---------------------
   Menu Section
 -----------------------*/
-.menu-tab-nav.nav-tabs  {
+.menu-tab-nav.nav-tabs {
   border-bottom: none;
   text-align: center;
   display: block;
@@ -716,10 +705,10 @@ ol {
 }
 .menu-dark {
   .menu-item {
-     h5 {
+    h5 {
       color: #7e7e7e;
     }
-    p{
+    p {
       color: #b6b5b5;
     }
     .menu-price {
@@ -728,7 +717,6 @@ ol {
         border-bottom: 2px dotted #dcdcdc;
       }
     }
-
   }
 }
 .menu-item {
@@ -757,7 +745,7 @@ ol {
     font-size: 17px;
     &:after {
       position: absolute;
-      content:"";
+      content: '';
       width: calc(100% - 63px);
       left: 0;
       top: 50%;
@@ -766,7 +754,6 @@ ol {
     }
   }
 }
-
 
 /*---------------------
   Footer Section
@@ -827,16 +814,14 @@ ol {
 .copyright-s2 {
   width: 100%;
   background: #000000;
-      padding: 23px 0;
-      text-align: center;
-  p{
+  padding: 23px 0;
+  text-align: center;
+  p {
     color: #777777;
     margin-bottom: 0;
     font-size: 14px;
   }
 }
-
-
 
 /*--------------
   Other Page
@@ -851,7 +836,7 @@ ol {
     display: table-cell;
     vertical-align: middle;
   }
-  h2{
+  h2 {
     padding-top: 80px;
     line-height: normal;
     font-size: 110px;
@@ -861,7 +846,6 @@ ol {
     }
   }
 }
-
 
 /*---------------
     About Page
@@ -881,7 +865,7 @@ ol {
     padding-top: 40px;
     margin-bottom: 30px;
   }
-  p{
+  p {
     font-size: 14px;
     color: #fff;
     margin-bottom: 0;
@@ -900,12 +884,10 @@ ol {
   }
   &:hover {
     img {
-        opacity: 1;
+      opacity: 1;
     }
   }
 }
-
-
 
 /*---------------
   Menu Page
@@ -928,20 +910,20 @@ ol {
       border: none;
       background: #f2f8f9;
       padding: 12px 0 10px;
-      i{
+      i {
         color: #737373;
-      float: left;
-      width: 60px;
-      font-size: 40px;
-      text-align: right;
-      display: block;
-      position: relative;
-      top: -12px;
+        float: left;
+        width: 60px;
+        font-size: 40px;
+        text-align: right;
+        display: block;
+        position: relative;
+        top: -12px;
       }
       .mpm-text {
         padding-left: 75px;
         padding-right: 8px;
-        p{
+        p {
           font-size: 11px;
           margin-bottom: 0;
           font-style: italic;
@@ -964,8 +946,8 @@ ol {
 }
 
 .featured-section {
-      padding-top: 69px;
-    padding-bottom: 75px;
+  padding-top: 69px;
+  padding-bottom: 75px;
 }
 .featured {
   .section-title {
@@ -973,9 +955,8 @@ ol {
   }
   .menu-item {
     margin-bottom: 35px;
+  }
 }
-}
-
 
 /*---------------
   Blog Page
@@ -1026,8 +1007,6 @@ ol {
   }
 }
 
-
-
 .sb-widget {
   margin-bottom: 56px;
   &:last-child {
@@ -1058,7 +1037,7 @@ ol {
 }
 .sb-search {
   position: relative;
-  input{
+  input {
     width: 100%;
     border: none;
     padding: 0 15px 18px;
@@ -1078,7 +1057,6 @@ ol {
   }
 }
 
-
 .latest-posts-widget {
   .lp-item {
     margin-bottom: 29px;
@@ -1097,9 +1075,9 @@ ol {
     }
     h6 {
       padding-top: 3px;
-        margin-bottom: 4px;
+      margin-bottom: 4px;
     }
-    p{
+    p {
       font-size: 12px;
       color: #b6b5b5;
       font-style: italic;
@@ -1107,8 +1085,6 @@ ol {
     }
   }
 }
-
-
 
 /*---------------
   Contact Page
@@ -1140,7 +1116,7 @@ ol {
     text-align: center;
     font-size: 22px;
     float: left;
-    i{
+    i {
       display: table-cell;
       vertical-align: middle;
     }
@@ -1166,7 +1142,6 @@ ol {
   }
 }
 
-
 /*------------------
   Responsive
 ---------------------*/
@@ -1187,7 +1162,8 @@ ol {
 
 /* Medium screen : 992px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .section-title h2:after, .section-title h2:before {
+  .section-title h2:after,
+  .section-title h2:before {
     width: 190px;
   }
   .site-logo {
@@ -1225,7 +1201,8 @@ ol {
   .hero-slider .owl-dots-number {
     left: 40px;
   }
-  .section-title h2:after, .section-title h2:before {
+  .section-title h2:after,
+  .section-title h2:before {
     width: 100px;
   }
   .contact-img {
@@ -1289,11 +1266,11 @@ ol {
     display: block;
     border-bottom: 1px solid #ddd;
     a {
-          padding: 13px 5px;
-          color: #000;
-          &:hover{
-            color: $color;
-          }
+      padding: 13px 5px;
+      color: #000;
+      &:hover {
+        color: $color;
+      }
     }
   }
   .header-right {
@@ -1324,14 +1301,14 @@ ol {
   .footer-bg-area {
     height: 615px;
   }
-   .contact-img {
+  .contact-img {
     display: none;
   }
   .mp-menu-tab-nav .nav-item {
     width: 50%;
     margin-bottom: 20px;
   }
-   .featured-section {
+  .featured-section {
     background-image: none !important;
   }
   .sidebar {
@@ -1345,7 +1322,7 @@ ol {
 }
 
 /* Medium Mobile :480px. */
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
   .contact-form-warp {
     padding: 45px 30px 65px;
   }
