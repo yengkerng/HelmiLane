@@ -59,6 +59,10 @@ h5 {
   display:inline;
 }
 
+h5:hover {
+  opacity: 0.5;
+}
+
 .resume {
   margin-right: 5px;
 }
@@ -76,6 +80,10 @@ p {
   color: #932493;
   line-height: 2;
   display:inline;
+}
+
+p:hover {
+  opacity: 0.5;
 }
 
 img {
@@ -286,7 +294,7 @@ ol {
   margin-right: auto;
   width: 50%;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
   border-radius: 50%;
 }
 
@@ -500,7 +508,7 @@ ol {
 ---------------------*/
 
 .header-section {
-  width: 35%;
+  width: 25%;
   top: 0;
   left: 0;
   z-index: 10;

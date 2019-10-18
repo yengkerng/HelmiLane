@@ -12,7 +12,7 @@
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
   z-index: 1;
-  width: 65%;
+  width: 75%;
   position: relative;
   margin-right: auto;
 }
