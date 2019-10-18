@@ -32,6 +32,10 @@ h6 {
   color: #1b1a1a;
 }
 
+hr {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
 h1 {
   font-size: 70px;
 }
@@ -42,6 +46,7 @@ h2 {
 
 h3 {
   font-size: 30px;
+  margin-bottom: 5px;
 }
 
 h4 {
@@ -50,6 +55,16 @@ h4 {
 
 h5 {
   font-size: 18px;
+  color: darkblue;
+  display:inline;
+}
+
+.resume {
+  margin-right: 5px;
+}
+
+.coverletter {
+  margin-left: 5px;
 }
 
 h6 {
@@ -57,9 +72,10 @@ h6 {
 }
 
 p {
-  font-size: 16px;
-  color: #7e7e7e;
+  font-size: 20px;
+  color: #932493;
   line-height: 2;
+  display:inline;
 }
 
 img {
@@ -262,6 +278,16 @@ ol {
     border: 4px solid #f44336;
     border-left-color: transparent;
   }
+}
+
+.yeng-tan {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
 }
 
 .element {
@@ -481,6 +507,9 @@ ol {
   float: right;
 }
 
+.documentContainer {
+  display: inline;
+}
 .information {
   font-size: 20px;
   text-align: center;
@@ -489,8 +518,6 @@ ol {
 
 .information a {
   font-size: 45px;
-  word-spacing: 30px;
-  color: black;
 }
 
 .information a:hover {
