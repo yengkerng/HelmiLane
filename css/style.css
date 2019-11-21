@@ -56,7 +56,7 @@ h4 {
 h5 {
   font-size: 18px;
   color: darkblue;
-  display:inline;
+  display: inline;
 }
 
 h5:hover {
@@ -79,7 +79,7 @@ p {
   font-size: 20px;
   color: #932493;
   line-height: 2;
-  display:inline;
+  display: inline;
 }
 
 p:hover {
@@ -291,8 +291,7 @@ ol {
 .yeng-tan {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 160px;
   margin-bottom: 20px;
   margin-top: 40px;
   border-radius: 50%;
@@ -515,17 +514,17 @@ ol {
   float: right;
 }
 
-.documentContainer {
-  display: inline;
+.flex-information {
+  display: flex;
 }
 .information {
   font-size: 20px;
   text-align: center;
   font-family: Bookman;
-}
-
-.information a {
-  font-size: 45px;
+  width: 20%;
+  display: block;
+  margin-right: auto;
+  margin-top: 70px;
 }
 
 .information a:hover {
@@ -600,9 +599,10 @@ ol {
 ---------------------*/
 
 .hs-item {
-  height: 100vh;
-  width: 100%;
-  display: table;
+  height: 60vh;
+  width: 100vh;
+  display: block;
+  margin: 0 auto;
 }
 
 .hs-content {

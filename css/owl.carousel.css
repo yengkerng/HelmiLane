@@ -55,7 +55,7 @@
 }
 .owl-carousel .owl-item img {
   display: block;
-  width: 100%;
+  width: 65%;
 }
 .owl-carousel .owl-nav.disabled,
 .owl-carousel .owl-dots.disabled {
@@ -74,6 +74,8 @@
 }
 .owl-carousel.owl-loaded {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .owl-carousel.owl-loading {
   opacity: 0;
@@ -201,6 +203,6 @@
 .owl-carousel .owl-video-frame {
   position: relative;
   z-index: 1;
-  height: 100%;
-  width: 100%;
+  height: 65%;
+  width: 65%;
 }
