@@ -1,42 +1,84 @@
-/* =================================
-------------------------------------
-  HelmiLane -- Designed by Yeng Tan
-  Version: 1.0
- ------------------------------------ 
- ====================================*/
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
-
 @font-face {
-  font-family: 'HelveticaNeueLTPro';
+  font-family: "Gill Sans", sans-serif;  
   src: url('../fonts/HelveticaNeueLTPro-Md.woff');
 }
 
-.center {
-  width: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-family:'Georgia', serif;
 }
 
-.center:hover {
-  opacity: 0.5;
+.centerBody {
+  min-height: 1000px;
 }
 
-.title {
-  top: 280px
+.centerBody .left{
+  padding-left: 200px;
+  padding-right: 50px;
+  float: left;
+}
+.centerBody .left img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  border: 2px outset black;
+  margin-bottom: 100px;
 }
 
-html,
-body {
-  height: 100%;
-  font-family: 'HelveticaNeueLTPro', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+img:hover{
+  opacity: 0.6;
 }
+
+.centerBody .right {
+  padding-left: 200px;
+  padding-right: 50px;
+}
+
+p {
+  font-size: 18px;
+  display: inline;
+  text-align: left;
+}
+
+.authorText {
+  min-height: 700px;
+}
+
+.authorText img {
+  max-width: 30%;
+  height: auto;
+  width: auto;
+  padding-left: 200px;
+  padding-right: 50px;
+  float: left;
+  border-radius: 60%;
+  margin-bottom: 100px;
+}
+
+.authorText h2 {
+  padding-top: 50px;
+  text-align: center
+}
+
+.authorText .right {
+  width: 90%;
+}
+.authorText p{
+  padding-top: 100px;
+  font-family: 'Garet';
+  font-size: 18px;
+}
+
+.contactInformation {
+  text-align: center;
+}
+
+.contactInformation p {
+  font-size: 20px;
+  font-weight: bold;
+};
+
 
 h1,
 h2,
@@ -67,16 +109,13 @@ h3 {
 
 h4 {
   font-size: 24px;
+  margin-bottom: 5px;
 }
 
 h5 {
   font-size: 18px;
   color: darkblue;
   display: inline;
-}
-
-h5:hover {
-  opacity: 0.5;
 }
 
 .resume {
@@ -89,21 +128,6 @@ h5:hover {
 
 h6 {
   font-size: 16px;
-}
-
-p {
-  font-size: 20px;
-  color: #932493;
-  line-height: 2;
-  display: inline;
-}
-
-p:hover {
-  opacity: 0.5;
-}
-
-img {
-  max-width: 100%;
 }
 
 input:focus,
