@@ -13,11 +13,29 @@ h1 {
   min-height: 1000px;
 }
 
-.centerBody .left{
-  padding-left: 200px;
+.centerBody .left {
+  padding-left: 7%;
   padding-right: 50px;
   float: left;
 }
+
+@media (max-device-width:801px)  { 
+  .centerBody .left {
+    text-align: center;
+    float: none;
+  }
+  .authorText .left {
+    text-align: center;
+  }
+
+  .authorText .left img {
+    float: none;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+ }
+
+
 .centerBody .left img {
   max-width: 100%;
   height: auto;
@@ -31,7 +49,7 @@ img:hover{
 }
 
 .centerBody .right {
-  padding-left: 200px;
+  padding-left: 7%;
   padding-right: 50px;
 }
 
@@ -49,10 +67,10 @@ p {
   max-width: 30%;
   height: auto;
   width: auto;
-  padding-left: 200px;
+  padding-left: 7%;
   padding-right: 50px;
   float: left;
-  border-radius: 60%;
+  border-radius: 70%;
   margin-bottom: 100px;
 }
 
@@ -63,9 +81,9 @@ p {
 
 .authorText .right {
   width: 90%;
+  padding-left: 7%;
 }
-.authorText p{
-  padding-top: 100px;
+.authorText p {
   font-family: 'Garet';
   font-size: 18px;
 }
