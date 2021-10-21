@@ -10,19 +10,21 @@ h1 {
 }
 
 .centerBody {
-  min-height: 1000px;
+  min-height: 750px;
 }
 
 .centerBody .left {
   padding-left: 7%;
   padding-right: 50px;
   float: left;
+  max-width: 399px;
 }
 
 @media (max-device-width:801px)  { 
   .centerBody .left {
     text-align: center;
     float: none;
+    max-width:100%;
   }
   .authorText .left {
     text-align: center;
