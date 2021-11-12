@@ -1,13 +1,11 @@
-@font-face {
-  font-family: "Gill Sans", sans-serif;  
-  src: url('../fonts/HelveticaNeueLTPro-Md.woff');
+.body {
+  font-family: Verdana, sans-serif; 
 }
 
 h1 {
   padding-top: 50px;
   padding-bottom: 35px;
   text-align: center;
-  font-family:'Georgia', serif;
 }
 
 .centerBody {
@@ -64,7 +62,6 @@ p {
 
 .authorText {
   min-height: 700px;
-  font-family:'Georgia', serif;
 }
 
 .authorText img {
@@ -87,7 +84,6 @@ p {
   width: 90%;
 }
 .authorText p {
-  font-family: 'Garet';
   font-size: 18px;
 }
 
@@ -582,7 +578,6 @@ ol {
 .information {
   font-size: 20px;
   text-align: center;
-  font-family: Bookman;
   width: 20%;
   display: block;
   margin-right: auto;
