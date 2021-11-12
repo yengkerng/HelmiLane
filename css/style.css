@@ -5,12 +5,13 @@
 
 h1 {
   padding-top: 50px;
+  padding-bottom: 35px;
   text-align: center;
   font-family:'Georgia', serif;
 }
 
 .centerBody {
-  min-height: 750px;
+  min-height: 690px;
 }
 
 .centerBody .left {
@@ -63,6 +64,7 @@ p {
 
 .authorText {
   min-height: 700px;
+  font-family:'Georgia', serif;
 }
 
 .authorText img {
@@ -72,18 +74,17 @@ p {
   padding-left: 7%;
   padding-right: 50px;
   float: left;
-  border-radius: 70%;
   margin-bottom: 100px;
 }
 
 .authorText h2 {
-  padding-top: 50px;
-  text-align: center
+  text-align: center;
+  padding-bottom: 35px;
 }
 
 .authorText .right {
+  padding-left:7%;
   width: 90%;
-  padding-left: 7%;
 }
 .authorText p {
   font-family: 'Garet';
@@ -97,6 +98,7 @@ p {
 .contactInformation p {
   font-size: 20px;
   font-weight: bold;
+  
 };
 
 
@@ -119,7 +121,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 50px;
 }
 
 h3 {
