@@ -48,11 +48,6 @@ h1 {
   border: 2px outset black;
   margin-bottom: 100px;
 }
-
-img:hover{
-  opacity: 0.6;
-}
-
 .centerBody .right {
   padding-left: 7%;
   padding-right: 50px;
