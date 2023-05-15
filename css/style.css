@@ -65,13 +65,13 @@ p {
 }
 
 .authorText img {
-  max-width: 25%;
+  max-width: 35%;
   height: auto;
   width: auto;
   padding-left: 7%;
-  padding-right: 50px;
-  float: left;
-  margin-bottom: 100px;
+  padding-right: 10%;
+  float: right;
+  margin-bottom: 50px;
 }
 
 .authorText h2 {
